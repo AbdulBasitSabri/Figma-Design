@@ -1,15 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 
 * {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
 
 }
-
-  /* font-family: "Source Sans 3", sans-serif; */
 
 html {
   scroll-behavior: smooth;
@@ -17,6 +14,7 @@ html {
 body {
   padding: 0px 36px;
   background: #fff;
+
 }
 .text-black {
   color: #000;
@@ -107,7 +105,7 @@ nav a {
   right: 0;
 }
 .green-div-2 {
-  height: 380px;
+  height: 385px;
   width: 350px;
   background: #00d285;
   position: absolute;
@@ -120,11 +118,11 @@ nav a {
   width: 80px;
   height: 80px;
   position: absolute;
-  top: 770px;
+  top: 740px;
   display: flex;
   justify-content: center;
   align-items: center;
-  right: 68px;
+  right: 62px;
   border-radius: 50%;
   border-top-right-radius: 0%;
 }
@@ -148,7 +146,7 @@ nav a {
 }
 .hero-btn a {
   text-decoration: none;
-  padding: 16px 20px;
+  padding: 18px 20px;
   font-weight: 600;
   font-size: 14px;
   border-radius: 28px;
@@ -171,14 +169,14 @@ nav a {
   justify-content: center;
   gap: 80px;
   flex-direction: row;
-  padding: 200px 0px 50px 0px;
+  padding: 180px 0px 115px 0px;
 }
 .service-image {
-  padding: 20px 0px 0px 28px;
+  padding: 20px 0px 0px 33px;
 }
 .service-image img {
   height: 540px;
-  max-width: 460px;
+  max-width: 453px;
   object-fit: cover;
   background-size: cover;
   background-position: center;
@@ -205,7 +203,7 @@ nav a {
 .service-detail {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 24px;
   margin: 10px 0px;
 }
 
@@ -231,28 +229,31 @@ nav a {
   position: relative;
 }
 .partnership-img {
-  width: 598px;
+  width: 596px;
   height: 580px;
 }
 .partnership-img img {
   position: absolute;
   top: 9%;
   left: 42px;
+  object-fit: cover;
 }
 .partnership-content {
   display: flex;
   flex-direction: column;
-  padding: 40px 50px 20px 0px;
+  padding: 40px 45px 20px 10px;
 }
 
 .partnership-heading h1 {
   font-size: 36px;
-  font-weight: 600;
+  font-weight: 700;
   font-family: sans-serif;
   margin: 10px 0px 40px 0px;
   position: relative;
+  color: #262626;
   z-index: 2;
-  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+
 }
 .partnership-para p {
   font-size: 14px;
@@ -295,8 +296,8 @@ nav a {
 }
 .testimonial-heading-2 {
   position: absolute;
-  top: 24%;
-  left: 8%;
+  top: 23%;
+  left: 100px;
 }
 .testimonial-heading-2 h3 {
   font-size: 18px;
@@ -333,7 +334,7 @@ nav a {
 }
 .card-data {
   background: #fff;
-  padding: 20px;
+  padding: 22px;
   border-radius: 15px;
   z-index: 2;
   margin-top: -47px;
@@ -344,7 +345,9 @@ nav a {
 }
 .data-para p {
   font-size: 14px;
-  line-height: 40px;
+  line-height: 38px;
+  font-weight: 300;
+  margin-top: -8px;
 }
 .card-data .data-title {
   display: flex;
@@ -399,29 +402,32 @@ nav a {
   position: absolute;
   top: 9%;
   left: 42px;
+  object-fit: cover;
 }
 .demo-content {
   display: flex;
   flex-direction: column;
   padding: 0px 65px 20px 0px;
-  margin-top: -30px;
   margin-left: -30px;
+  margin-top: -35px;
 }
 
 .demo-heading h1 {
-  font-size: 36px;
-  font-weight: 600;
+   font-size: 36px;
+  font-weight: 700;
   font-family: sans-serif;
+  margin: 10px 0px 28px 0px;
   position: relative;
+  color: #262626;
   z-index: 2;
-  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+
 }
 .demo-para p {
   font-size: 14px;
   line-height: 2.7;
   position: relative;
   z-index: 2;
-  margin-top: 30px;
 }
 .demo-btn {
   display: flex;
@@ -473,7 +479,7 @@ nav a {
   flex-direction: row;
   height: 280px;
   width: 370px;
-  padding: 20px;
+  padding: 28px;
   background: #f9fdfc;
   gap: 13px;
   border-radius: 10px;
@@ -484,7 +490,8 @@ nav a {
   align-items: center;
 }
 .card-icon svg {
-  margin-top: -155px;
+  margin-top: -145px;
+  margin-left: -10px;
 }
 .card-heading {
   display: flex;
@@ -496,6 +503,8 @@ nav a {
   text-align: left;
   font-size: 25px;
   font-weight: 600;
+  color: #000D2F;
+  margin-left: -4px;
 }
 
 .card-heading p {
@@ -505,7 +514,7 @@ nav a {
 }
 
 .ideal-level {
-  padding-top: 135px;
+  padding-top: 148px;
 }
 .ideal-container {
   display: flex;
@@ -518,9 +527,10 @@ nav a {
   display: flex;
   flex-direction: column;
   margin-top: 10px;
+  margin-left: -5px;
 }
 .ideal-content h1 {
-  font-size: 37px;
+  font-size: 36px;
   font-weight: 500;
 }
 .ideal-content h2 {
@@ -534,6 +544,8 @@ footer {
   display: flex;
   justify-content: center;
   height: 88vh;
+  position: relative;
+  z-index: 5;
 }
 .footer-container {
   display: flex;
@@ -643,7 +655,7 @@ footer {
 
 .information i {
   margin-right: 7px;
-  font-size: 20px;
+  font-size: 21px;
 }
 
 .ft-logo-div {
@@ -665,15 +677,17 @@ footer {
 }
 .ft-logo-name{
     position:absolute;
-    top: 23px;
-    right: 154px;
+    top: 25px;
+    right: 158px;
 }
 .ft-logo-name h3 {
-  font-size: 25px;
+  font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+
+
 }
 .ft-logo-name p {
-  font-size: 15px;
-  margin-top: -10px;
+  font-size: 12px;
 }
 
 .ft-bottom {
@@ -716,7 +730,12 @@ footer {
     top: -9px;
 }
 
-
+.ft-svg{
+    position: absolute;
+    bottom: -30px;
+    left: 70px;
+    z-index: -1;
+}
 .bottom-div{
     padding: 20px 0px ;
 }
